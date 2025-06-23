@@ -16,7 +16,7 @@
 	// "features": {},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-	"postStartCommand": "rustup component add --toolchain nightly clippy && rustup target add thumbv8m.main-none-eabi --toolchain nightly && git clone https://github.com/ariel-os/ariel-os build/imports/ariel-os || true"
+	// "postStartCommand": "rustup component add --toolchain nightly clippy && rustup target add thumbv8m.main-none-eabi --toolchain nightly && git clone https://github.com/ariel-os/ariel-os build/imports/ariel-os || true"
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "rustc --version",
 	// Configure tool-specific properties.
